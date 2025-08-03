@@ -25,7 +25,9 @@ Etapas de Normalización o Codificación
 - Normalización: Las variables numéricas se estandarizan con StandardScaler para tener media 0 y desviación estándar 1, asegurando que todas contribuyan equitativamente al modelo.
 - Manejo de NaN: Se eliminan filas con valores nulos en Churn y otras columnas para mantener la integridad de los datos, justificable por el tamaño suficiente del dataset (~7,000 registros).
 
-Separación de DatosLos datos se dividen en conjuntos de entrenamiento (80%) y prueba (20%) usando train_test_split con random_state=42 para reproducibilidad. Esta proporción balancea el aprendizaje del modelo y la evaluación externa.
+Separación de Datos
+
+Los datos se dividen en conjuntos de entrenamiento (80%) y prueba (20%) usando train_test_split con random_state=42 para reproducibilidad. Esta proporción balancea el aprendizaje del modelo y la evaluación externa.
 
 Justificaciones para Decisiones en la Modelización
 - Modelo Random Forest: Elegido por su capacidad para manejar variables categóricas y numéricas sin escalado previo (excepto numéricas), y por su robustez frente a sobreajuste con múltiples árboles (n_estimators=100).

@@ -77,4 +77,5 @@ Instrucciones para Usar el README
 - Publica (Opcional): Si subes el proyecto a GitHub, el README.md se mostrará automáticamente en la página principal.
 
 Notas Finales
+
 Este README documenta el propósito de predecir el churn, detalla el proceso técnico y proporciona instrucciones claras para ejecutar el análisis. Los insights obtenidos (por ejemplo, el impacto de tenure y Charges.Monthly) son clave para las estrategias de retención de TelecomX.

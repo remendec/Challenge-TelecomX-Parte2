@@ -5,7 +5,7 @@ Propósito del Análisis
 Este proyecto tiene como objetivo principal desarrollar un modelo predictivo para anticiparse a la cancelación (churn) de clientes de TelecomX, una empresa del sector de telecomunicaciones. Utilizando un conjunto de datos en formato JSON que incluye información demográfica, de servicios y de facturación, el análisis busca identificar patrones y variables relevantes que influyan en la decisión de los clientes de abandonar el servicio. El modelo Random Forest implementado proporciona una precisión del 80% y un recall del 47% para detectar abandonos, permitiendo a TelecomX implementar estrategias de retención personalizadas y proactivas.
 
 Estructura del Proyecto y Organización de Archivos
-- TelecomX_LATAM_Prediction.ipynb: El cuaderno principal que contiene todo el código y las visualizaciones. Está organizado en celdas numeradas (1 a 7) que cubren la importación de datos, preparación, análisis exploratorio, modelado y conclusiones.
+- Telecom X_Parte2.ipynb: El cuaderno principal que contiene todo el código y las visualizaciones. Está organizado en celdas numeradas (1 a 7) que cubren la importación de datos, preparación, análisis exploratorio, modelado y conclusiones.
 - data/ (opcional): Carpeta donde se puede guardar el archivo JSON original (TelecomX_Data.json) o un CSV procesado (telecomx_data_processed.csv) si se exportan los datos tratados.
 - visualizations/ (opcional): Carpeta para almacenar gráficos generados (por ejemplo, matriz de correlación, distribución de churn, importancia de variables) si se desea exportarlos como imágenes.
 
@@ -42,6 +42,7 @@ Requisitos
 - Bibliotecas: Instala las siguientes dependencias ejecutando en una celda de código:
 
 bash
+
 !pip install pandas numpy matplotlib seaborn scikit-learn
 
 - Datos: El cuaderno carga los datos directamente desde la URL

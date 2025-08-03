@@ -2,6 +2,7 @@
 Proyecto de Predicción de Churn en TelecomX
 
 Propósito del Análisis
+
 Este proyecto tiene como objetivo principal desarrollar un modelo predictivo para anticiparse a la cancelación (churn) de clientes de TelecomX, una empresa del sector de telecomunicaciones. Utilizando un conjunto de datos en formato JSON que incluye información demográfica, de servicios y de facturación, el análisis busca identificar patrones y variables relevantes que influyan en la decisión de los clientes de abandonar el servicio. El modelo Random Forest implementado proporciona una precisión del 80% y un recall del 47% para detectar abandonos, permitiendo a TelecomX implementar estrategias de retención personalizadas y proactivas.
 
 Estructura del Proyecto y Organización de Archivos
